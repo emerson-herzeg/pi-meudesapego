@@ -1,0 +1,52 @@
+body {
+    background: url(../images/fa6.png);
+    background-size: auto;
+}
+.cad-form {
+    width: 90%;
+    margin: 50px auto;
+    font-size: 15px;
+}
+.cad-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.cad-form h2 {
+    margin: 0 0 15px;
+}
+.cad-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {      
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+
+
+/*
+#RESPONSIVO#
+ DEFINE TAMANHO MINIMO PARA ALTERAR MEDIDAS, NESTE CASO, A PARTIR DE 800px
+ OS PARÂMETROS MUDARÃO DE ACORDO COM O QUE FOR SELECIONADO
+*/
+
+
+@media (min-width: 800px) {
+    .cad-form {
+    width: 50%;
+    margin: 50px auto;
+    font-size: 15px;
+}
+}
+
+
+
+
+
+
+

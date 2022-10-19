@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Responsivo -->
+
+    <!-- Título-->
+    <title>Meu Desapego</title>
+    <link rel="icon" href="images/meudesapego.png"> <!-- DEFINIR IMAGEM LOGOTIPO FAV DA ONG -->
+
+    <!-- Fonte externa-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Referência arquivos externos-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header><!-- inicio Cabeçalho -->
+      <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+        <div class="container">
+          
+          <a href="index.php" class="navbar-brand">
+            <img src="images/meud.png" width="150px">
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="sobre.php" class="nav-link">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a href="contato.php" class="nav-link">Contato</a>
+              </li>
+
+
+              <li class="nav-item divisor"></li>
+
+              <li class="nav-item">
+                <a href="cad_doador.html" class="nav-link">Inscrever-se</a>
+              </li>
+              <li class="nav-item">
+                <a href="login.php" class="nav-link">Entrar</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header><!--/fim Cabecalho -->
+
+
+    <div class="page-wrapper bg-img p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card2 card2-6">
+                <div class="card2-heading">
+                    <h2 class="titulo">Registre-se aqui!</h2>
+                </div>
+                <div class="card2-body">
+                    <form method="post" action="doador_controller.php?acao=inserir"> <!--Interação com BD-->
+                        <div class="form-row">
+                            <div class="name">Nome Completo</div>                                                            <!-- Defini a classe dos títulos dos campos como "name" para facilitar e padronizar a personalização através do css -->
+                            <div class="value">
+                                <input class="input-style" type="text" id="nomecompleto" name="nomecompleto" placeholder="Seu nome aqui">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Data de Nascimento</div>                                              
+                            <div class="value">
+                                <input class="input-style" type="date" id="datanasc" name="datanasc" placeholder="">
+                            </div>
+                        </div>
+                            <div class="form-row">
+                            <div class="name">CEP</div>
+                            <div class="value">
+                                <div class="input-group">
+                                   <input class="input-style" type="text" id="cep" name="cep" placeholder="">
+                                </div>
+                            </div>
+                        </div>  
+
+
+                        <div class="form-row">
+                            <div class="name">Rua</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input-style" type="text" id="rua" name="rua" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Número</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="input-group">
+                                    <input class="input-style" type="text" id="numero" name="numero" placeholder="">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Complemento</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="input-group">
+                                    <input class="input-style" type="text" id="complemento" name="complemento" placeholder="">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Estado</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="input-group">
+                                    <input class="input-style" type="text" id="estado" name="estado" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="name">Cidade</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input-style" type="text" id="cidade" name="cidade" placeholder="">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Bairro</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input-style" type="text" id="bairro" name="bairro" placeholder="">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">E-mail</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input-style" type="email" id="email" name="email" placeholder="exemplo@email.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Senha</div>                                                           
+                            <div class="value">
+                                <input class="input-style" type="password" id="senha" name="senha" placeholder="Defina uma senha de acesso">
+                                <div class="name2">
+                                <label>Por favor selecione uma senha para acessar o cadastro futuramente</label>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card2-footer">
+                            <button class="btn btn--radius-2 btn--blue-2" type="submit">Registrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
