@@ -1,6 +1,0 @@
-- name: Emerson
-  uses: sebastianpopp/ftp-action@v2.0.0
-  with:
-    host: ftp.meudesapego.tech
-    user: u189699150.teste
-    password: pi3@desapegoTeste
