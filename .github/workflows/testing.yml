@@ -2,7 +2,7 @@ on:
   push:
      branches:
        - testing
-name: 🚀 Deploy testing website on push
+name: 🚀 Deploy testing website on push 2
 jobs:
   web-deploy:
     name: 🎉 Deploy
