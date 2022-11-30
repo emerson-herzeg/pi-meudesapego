@@ -91,7 +91,11 @@
                   <div class="col-md-12">
                     <h2>Você está a poucos passos para ajudar diversas famílias</h2>
                     <h3>Um pequeno gesto pode mudar vidas</h3>
+<<<<<<< HEAD
                     <h3>Doe móveis, eletrodomésticos em bom estado.
+=======
+                    <h3>Doe móveis, eletrodomésticos em bom estado!
+>>>>>>> 4449e2a (Teste de integração contínua)
                     </h3>
                   </div>
                 </div>
