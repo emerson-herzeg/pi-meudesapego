@@ -28,17 +28,17 @@
                 display: none;
             }
         }
-    </style> 
+    </style>
 
     <title>Meu Desapego</title>
     <link rel="icon" href="logo_art/favicon.png">
   </head>
   <body>
-    
+
     <header><!-- inicio Cabeçalho -->
       <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
         <div class="container">
-          
+
           <a href="index.php" class="navbar-brand">
             <img src="images/meud.png" width="100px">
           </a>
@@ -73,7 +73,7 @@
     </header><!--/fim Cabecalho -->
     <div style="margin-top: 10.3%">
       <!-- Menu de Acessibilidade -->
-      <?php 
+      <?php
         require_once("menu-acessibilidade.php");
       ?>
       <!-- Fim menu de acessibilidade -->
@@ -85,13 +85,13 @@
         mostraAlerta("danger");
       ?>
       <div class="container align-self-center"><!--container -->
-          <div class="col-md-12 capa"> 
+          <div class="col-md-12 capa">
             <section id="recursos" class="caixa">
                 <div class="row">
                   <div class="col-md-12">
                     <h2>Você está a poucos passos para ajudar diversas famílias</h2>
                     <h3>Um pequeno gesto pode mudar vidas</h3>
-                    <h3>Doe móveis, eletrodomésticos em bom estado....
+                    <h3>Doe móveis, eletrodomésticos em bom estado
                     </h3>
                   </div>
                 </div>
@@ -155,7 +155,7 @@
     </footer>
 
     <!-- Início VLibras -->
-      <?php 
+      <?php
         require_once("vlibras.php");
       ?>
     <!-- Fim VLibras -->
